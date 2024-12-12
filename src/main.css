@@ -12,3 +12,35 @@ nav .bars:hover + .links {
   width: 0.5px;
   height: 100%;
 }
+
+@media (max-width: 1285px) {
+  .about-us {
+    width: 100% !important;
+  }
+  .comments {
+    left: 133px !important;
+    bottom: -40px !important;
+    margin-right: 15px;
+  }
+  .subscribe {
+    width: 100% !important;
+  }
+  .sub-text {
+    width: 100% !important;
+  }
+  .designDream h2,
+  .designSteps h2 {
+    width: 100% !important;
+    font-size: 32px !important;
+  }
+  .header,
+  .home,
+  .services,
+  .designDream,
+  .designSteps,
+  .customers,
+  .subscribe-up,
+  .foot {
+    padding: 0 15px;
+  }
+}
