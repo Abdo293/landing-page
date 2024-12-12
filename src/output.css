@@ -706,10 +706,6 @@ video {
   display: grid;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-\[130px\] {
   height: 130px;
 }
@@ -948,24 +944,14 @@ video {
   padding-bottom: 12px;
 }
 
-.py-\[50px\] {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.py-\[20px\] {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .py-\[35px\] {
   padding-top: 35px;
   padding-bottom: 35px;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .pb-4 {
@@ -988,40 +974,16 @@ video {
   padding-top: 17px;
 }
 
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+
 .pt-\[30px\] {
   padding-top: 30px;
 }
 
 .pt-\[7px\] {
   padding-top: 7px;
-}
-
-.pb-\[90px\] {
-  padding-bottom: 90px;
-}
-
-.pb-\[70px\] {
-  padding-bottom: 70px;
-}
-
-.pb-\[75px\] {
-  padding-bottom: 75px;
-}
-
-.pb-\[73px\] {
-  padding-bottom: 73px;
-}
-
-.pt-\[50px\] {
-  padding-top: 50px;
-}
-
-.pt-\[73px\] {
-  padding-top: 73px;
-}
-
-.pt-\[20px\] {
-  padding-top: 20px;
 }
 
 .text-center {
@@ -1089,14 +1051,14 @@ video {
   color: rgb(146 146 146 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\#D1D1D1\] {
-  --tw-text-opacity: 1;
-  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-footer-color {
+  --tw-text-opacity: 1;
+  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
 }
 
 .text-main-black {
@@ -1112,11 +1074,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-footer-color {
-  --tw-text-opacity: 1;
-  color: rgb(209 209 209 / var(--tw-text-opacity, 1));
 }
 
 .shadow-2xl {
@@ -1183,6 +1140,11 @@ video {
 
   .max-lg\:p-\[15px\] {
     padding: 15px;
+  }
+
+  .max-lg\:px-\[15px\] {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .max-lg\:text-center {
@@ -1267,11 +1229,6 @@ video {
   .max-md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-  }
-
-  .max-md\:px-\[15px\] {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .max-md\:pr-\[55px\] {
