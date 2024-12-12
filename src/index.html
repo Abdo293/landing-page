@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./all.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>landing page</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="h-[78px] flex items-center max-lg:p-[15px]">
+      <nav class="container mx-auto flex items-center justify-between relative">
+        <section class="logo">
+          <a href="index.html">
+            <img src="imgs/Logo.png" alt="logo" class="max-md:w-[125px]" />
+          </a>
+        </section>
+
+        <section class="bars max-md:absolute max-md:right-[10px] md:hidden">
+          <i class="fa-solid fa-bars text-3xl cursor-pointer"></i>
+        </section>
+        <ul
+          class="links flex gap-5 font-semibold max-md:absolute max-md:-top-[580%] max-md:left-1/2 max-md:flex-col max-md:text-center max-md:-translate-x-1/2 transition-all duration-300 max-md:w-full z-[100] max-md:bg-white max-md:py-3"
+        >
+          <li class="text-black">
+            <a href="#home">Home</a>
+          </li>
+          <li
+            class="text-main-color font-semibold hover:text-black transition-colors duration-300"
+          >
+            <a href="#services">Services</a>
+          </li>
+          <li
+            class="text-main-color font-semibold hover:text-black transition-colors duration-300"
+          >
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li
+            class="text-main-color font-semibold hover:text-black transition-colors duration-300"
+          >
+            <a href="#Support">Support</a>
+          </li>
+        </ul>
+
+        <section>
+          <button
+            class="bg-main-black text-white font-semibold py-[10px] px-[30px] max-md:hidden rounded"
+          >
+            Sign Up
+          </button>
+        </section>
+
+        <section class="md:hidden flex gap-5">
+          <section class="flex items-center max-md:pr-[55px]">
+            <i class="fa-regular fa-circle-user text-3xl cursor-pointer"></i>
+          </section>
+        </section>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- start home -->
+    <section class="container mx-auto max-lg:p-[15px]">
+      <section
+        class="flex justify-between mt-[100px] mb-[30px] max-md:my-[40px]"
+      >
+        <section>
+          <h1
+            class="text-[80px] font-medium mb-7 max-md:text-[40px] max-md:text-center max-md:mb-3"
+          >
+            Interior Design
+          </h1>
+          <p
+            class="text-main-color w-[60%] leading-[1.7] max-md:w-full max-md:text-center"
+          >
+            Step into a world where the art of Interior Design is meticulously
+            crafted to bring together timeless elegance and cutting-edge modern
+            Innovation, Allowing you to transform your living spaces into the
+            epitome of luxury and sophistication
+          </p>
+        </section>
+        <section class="max-md:hidden">
+          <img src="imgs/Image 1.png" alt="img 1" />
+        </section>
+      </section>
+
+      <section class="flex justify-between max-md:justify-center">
+        <section>
+          <section>
+            <button
+              class="bg-main-black text-white font-semibold py-[12px] px-[50px] rounded"
+            >
+              Start Project
+            </button>
+          </section>
+
+          <section class="flex items-center gap-10 mt-[70px] max-md:flex-col">
+            <p
+              class="text-main-color flex justify-center flex-col items-center"
+            >
+              <span class="block text-5xl max-lg:text-2xl">400+</span>
+              <span class="text-sm">Project Complete</span>
+            </p>
+
+            <p
+              class="text-main-color flex justify-center flex-col items-center"
+            >
+              <span class="block text-5xl max-lg:text-2xl">600+</span>
+              <span class="text-sm">Satisfied Clients</span>
+            </p>
+
+            <p
+              class="text-main-color flex justify-center flex-col items-center"
+            >
+              <span class="block text-5xl max-lg:text-2xl">100+</span>
+              <span class="text-sm">Unique Styles</span>
+            </p>
+          </section>
+        </section>
+
+        <section class="max-md:hidden relative">
+          <img
+            src="imgs/Image 2.png"
+            alt="img2"
+            class="w-[550px] max-lg:w-[330px] z-20 mr-[60px]"
+          />
+
+          <section
+            class="w-[150px] h-[130px] border border-main-black absolute -top-[30px] -left-[30px] rounded z-[-1]"
+          ></section>
+
+          <section
+            class="bg-main-black w-[90px] h-[90px] flex items-center justify-center absolute bottom-0 right-0"
+          >
+            <i class="fa-solid fa-arrow-down-long text-white"></i>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- end home -->
+
+    <!-- start Services -->
+    <section class="container mx-auto my-[100px] max-lg:p-[15px]" id="services">
+      <section class="flex gap-3 items-center" style="padding-bottom: 50px">
+        <span class="w-[100px] h-[2px] bg-main-black"></span>
+        <h2 class="text-main-black text-4xl font-semibold">Our Services</h2>
+      </section>
+
+      <section
+        class="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5"
+      >
+        <section class="flex gap-5">
+          <div>
+            <img
+              src="imgs/Lighting design icon.png"
+              alt=""
+              class="w-[50px] pt-[7px]"
+            />
+          </div>
+          <div>
+            <h3 class="text-main-black text-2xl font-semibold">
+              Lighting Design
+            </h3>
+            <p class="text-main-color pt-5 w-[80%] max-md:w-full">
+              Achieve the perfect balance of ambient, task, and accent lighting
+              for a functional atmosphere
+            </p>
+          </div>
+        </section>
+
+        <section class="flex gap-5">
+          <div>
+            <img src="imgs/Interior design icon.png" alt="" class="w-[50px]" />
+          </div>
+          <div>
+            <h3 class="text-main-black text-2xl font-semibold">
+              Interior Design
+            </h3>
+            <p class="text-main-color pt-5 w-[80%] max-md:w-full">
+              From concept to completion, we oversee every detail to bring your
+              vision to life efficiently
+            </p>
+          </div>
+        </section>
+
+        <section class="flex gap-5">
+          <div>
+            <img src="imgs/Outdoor design icon.png" alt="" class="w-[50px]" />
+          </div>
+          <div>
+            <h3 class="text-main-black text-2xl font-semibold">
+              Outdoor Design
+            </h3>
+            <p class="text-main-color pt-5 w-[80%] max-md:w-full">
+              Celebrate the changing seasons with our seasonal outdoor decor
+              services
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!-- end Services -->
+
+    <!-- start designDream -->
+    <section
+      class="container mx-auto flex justify-between gap-[70px] max-md:flex-col max-lg:p-[15px]"
+    >
+      <section class="w-1/2 max-md:w-full">
+        <img
+          src="imgs/Mask group.png"
+          alt="img"
+          class="max-w-full w-full h-[525px]"
+        />
+      </section>
+
+      <section class="w-1/2 max-md:w-full">
+        <h2
+          class="text-5xl font-semibold w-[70%] max-lg:w-full max-md:text-[30px] max-lg:text-[32px]"
+        >
+          Designing Your Dream With Brilliance
+        </h2>
+
+        <p
+          class="py-[50px] text-main-color leading-[1.7] w-[80%] max-lg:w-full"
+        >
+          Elevate your spaces with bespoke interior designs that reflect your
+          unique style and aspirations, crafted with precision and brilliance
+          for an unforgettable living experience
+        </p>
+
+        <ul class="flex flex-col gap-8">
+          <li class="flex items-center justify-between w-full border-b pb-4">
+            <p class="font-semibold text-main-black">
+              Living Room Interior Design
+            </p>
+            <i class="fa-solid fa-plus cursor-pointer"></i>
+          </li>
+          <li class="flex items-center justify-between w-full border-b pb-4">
+            <p class="font-semibold text-main-black">
+              Commercial Office Room Interior Design
+            </p>
+            <i class="fa-solid fa-plus cursor-pointer"></i>
+          </li>
+        </ul>
+
+        <button
+          class="bg-main-black text-white font-semibold py-[12px] px-[50px] rounded mt-8"
+        >
+          Start Project
+        </button>
+      </section>
+    </section>
+    <!-- end designDream -->
+
+    <!-- start designSteps -->
+    <section
+      class="container mx-auto flex justify-between gap-[70px] max-md:flex-col mt-[100px] max-lg:p-[15px]"
+    >
+      <section class="w-1/2 max-md:w-full">
+        <h2
+          class="text-5xl font-semibold w-[70%] max-lg:w-full max-md:text-[30px] text-main-black max-lg:text-[32px]"
+        >
+          Designing Your Dream in Three Simple Steps
+        </h2>
+
+        <section class="mt-[60px] steps relative">
+          <div class="flex gap-5">
+            <div class="step relative">
+              <i
+                class="fa-solid fa-rocket bg-main-black text-white p-3 rounded-full"
+              ></i>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold pb-5">Start Project</h3>
+              <p class="text-main-color">
+                Embark on your design adventure by initiating your project.
+                Share your vision and set the stage for a bespoke design
+                experience
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="mt-[60px]">
+          <div class="flex gap-5">
+            <div class="step relative">
+              <i
+                class="fa-regular fa-lightbulb bg-main-black text-white p-3 rounded-full"
+              ></i>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold pb-5">Craft</h3>
+              <p class="text-main-color">
+                Collaborate closely to achieve design excellence refining your
+                vision and crafting brilliance into every aspect of your space
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="mt-[60px]">
+          <div class="flex gap-5">
+            <div class="">
+              <i
+                class="fa-regular fa-circle-check bg-main-black text-white p-3 rounded-full"
+              ></i>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-semibold pb-5">Execute</h3>
+              <p class="text-main-color">
+                Witness your vision becoming a reality as we execute the design
+                plan with precision. Celebrate the joy of your newly transformed
+                space
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="w-1/2 max-md:w-full">
+        <img src="imgs/Image.png" alt="img" class="rounded w-full h-[576px]" />
+      </section>
+    </section>
+    <!-- end designSteps -->
+
+    <!-- start customers -->
+    <section
+      class="container mx-auto flex justify-between gap-[70px] max-md:flex-col mt-[100px] relative max-lg:flex-col max-lg:p-[15px]"
+    >
+      <div class="lg:hidden max-lg:text-center">
+        <h2
+          class="text-5xl font-semibold w-[70%] max-lg:w-full max-md:text-[30px] text-main-black max-lg:text-[32px]"
+        >
+          What Our Customers Say About Us
+        </h2>
+      </div>
+      <div class="w-1/2 max-lg:w-full">
+        <img
+          src="imgs/Mask group (1).png"
+          alt="img"
+          class="max-w-full w-full h-[350px] max-lg:hidden"
+        />
+
+        <section
+          class="flex gap-5 absolute left-[255px] bottom-[-10px] max-lg:static max-md:flex-col"
+        >
+          <section class="bg-main-black py-8 px-5 rounded w-full">
+            <img src="imgs/“.png" alt="coma" class="w-[30px]" />
+            <p class="text-white py-[50px]">
+              Working with your design team was an absolute pleasure. The
+              attention to detail and creativity exceeded my expectations. Thank
+              you for making my home beautiful!
+            </p>
+            <div class="flex items-center gap-5">
+              <img src="imgs/Mask group4.png" alt="img" />
+              <div class="">
+                <p class="text-white font-medium">Sophie Carter</p>
+                <p class="text-[#929292] text-sm">New York, USA</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="bg-main-black py-8 px-5 rounded w-full">
+            <img src="imgs/“.png" alt="coma" class="w-[30px]" />
+            <p class="text-white py-[50px]">
+              Exceptional service! From the initial consultation to the final
+              reveal, your team demonstrated professionalism and a keen eye for
+              design. Highly recommend!
+            </p>
+            <div class="flex items-center gap-5">
+              <img src="imgs/Mask group (2).png" alt="img" />
+              <div class="">
+                <p class="text-white font-medium">Sophie Carter</p>
+                <p class="text-[#929292] text-sm">New York, USA</p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section class="pt-[17px]">
+          <i class="fa-solid fa-arrow-left bg-[#F1F1F1] text-[#464646] p-4"></i>
+          <i
+            class="fa-solid fa-arrow-right bg-[#F1F1F1] text-[#464646] p-4"
+          ></i>
+        </section>
+      </div>
+
+      <div class="max-lg:hidden">
+        <h2
+          class="text-5xl font-semibold w-[70%] max-lg:w-full max-md:text-[30px] text-main-black max-lg:text-[32px]"
+        >
+          What Our Customers Say About Us
+        </h2>
+      </div>
+    </section>
+    <!-- end customers -->
+
+    <!-- start subscribe -->
+    <section class="container mx-auto mt-[100px] max-lg:p-[15px]">
+      <div class="flex flex-col items-center justify-center">
+        <h2
+          class="text-5xl text-main-black text-center font-semibold w-[40%] max-md:w-full max-md:text-[25px]"
+        >
+          Subscribe to Our Newsletter for Design Insights
+        </h2>
+        <p
+          class="text-main-color pt-[30px] mb-[100px] text-center w-[30%] max-md:w-full"
+        >
+          Be the first to discover trends, inspirations, and special offers as
+          we bring the world of design directly to your inbox
+        </p>
+      </div>
+    </section>
+    <!-- end subscribe -->
+
+    <!-- start footer -->
+    <footer class="bg-main-black">
+      <section class="container mx-auto">
+        <section class="max-md:px-[15px]">
+          <div class="flex items-center justify-center">
+            <div class="relative w-[70%] max-md:w-full">
+              <input
+                type="text"
+                placeholder="Enter your email address"
+                class="w-full shadow-2xl py-4 pl-[30px] rounded absolute left-1/2 -top-1/2 -translate-y-1/2 -translate-x-1/2 placeholder:text-[#8C8C8C]"
+              />
+
+              <button
+                class="bg-main-black text-white font-semibold rounded absolute top-1/2 transform -translate-y-1/2 right-[20px] py-[12px] px-[50px] max-md:px-[5px]"
+              >
+                Start Project
+              </button>
+
+              <i
+                class="fa-regular fa-envelope absolute left-[10px] top-1/2 transform -translate-y-1/2 text-[#8C8C8C]"
+              ></i>
+            </div>
+          </div>
+
+          <section
+            class="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-[90px] py-[100px]"
+          >
+            <div>
+              <a href="index.html">
+                <img
+                  src="imgs/Logo 2.png"
+                  alt="logo"
+                  class="max-md:w-[125px]"
+                />
+              </a>
+              <p class="text-footer-color py-[35px]">
+                VivaDecor your premier destination for luxury and modern
+                interior design
+              </p>
+              <ul class="flex items-center gap-3">
+                <li>
+                  <i
+                    class="fa-brands fa-facebook-f bg-[#313131] text-white w-[30px] h-[30px] cursor-pointer flex items-center justify-center rounded"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fa-brands fa-twitter bg-[#313131] text-white w-[30px] h-[30px] cursor-pointer flex items-center justify-center rounded"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fa-brands fa-instagram bg-[#313131] text-white w-[30px] h-[30px] cursor-pointer flex items-center justify-center rounded"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fa-brands fa-linkedin-in bg-[#313131] text-white w-[30px] h-[30px] cursor-pointer flex items-center justify-center rounded"
+                  ></i>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-white font-semibold text-xl">Our Services</h3>
+              <ul class="pt-[20px]">
+                <li class="text-footer-color pt-[20px]">Interior design</li>
+                <li class="text-footer-color pt-[20px]">Outdoor design</li>
+                <li class="text-footer-color pt-[20px]">Lightning design</li>
+                <li class="text-footer-color pt-[20px]">Office design</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-white font-semibold text-xl">Our Services</h3>
+              <ul class="pt-[20px]">
+                <li class="text-footer-color pt-[20px]">Reviews</li>
+                <li class="text-footer-color pt-[20px]">Careers</li>
+                <li class="text-footer-color pt-[20px]">Pricing</li>
+                <li class="text-footer-color pt-[20px]">Press inquires</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-white font-semibold text-xl">Our Services</h3>
+              <ul class="pt-[20px]">
+                <li class="text-footer-color pt-[20px]">info@vivadecor.com</li>
+                <li class="text-footer-color pt-[20px]">
+                  Design Avenue Cityville, CA 90210 United States
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+      </section>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>
